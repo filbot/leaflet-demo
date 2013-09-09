@@ -9,16 +9,16 @@ L.tileLayer('http://{s}.tile.cloudmade.com/4eb64c2677784cbdbbe3f9315b34b2fd/997/
 
 
 
-// $('center-map').click(function () {
+$('#center-map').click(function () {
 
-//     map.locate({
-//         setView: true,
-//         enableHighAccuracy: true,
-//         maxZoom: 15
-//     });
+    map.locate({
+        setView: true,
+        enableHighAccuracy: true,
+        maxZoom: 15
+    });
 
-//     console.log("Pressed the button!");
-// });
+    console.log("Pressed the button!");
+});
 
 
 
